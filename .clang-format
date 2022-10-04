@@ -1,0 +1,16 @@
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: Microsoft
+IndentWidth: 4
+TabWidth: 4
+IndentWidth: 4
+ContinuationIndentWidth: 4
+UseTab: ForIndentation
+
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+# IndentAccessModifiers: true
+EmptyLineBeforeAccessModifier: Always
+AlignConsecutiveAssignments: Consecutive
