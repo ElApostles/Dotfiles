@@ -3,4 +3,5 @@ curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.t
 tar xzf nvim-macos.tar.gz
 rm nvim-macos.tar.gz
 ./auto_setup.sh
-brew install --cask --appdir=~/download iterm2
+$(brew --prefix)/opt/fzf/install
+brew install --cask --appdir=~/Downloads iterm2
