@@ -129,7 +129,7 @@ alias vv="vim -u NONE"
 alias vs="vim -S Session.vim"
 alias wk="cd ~/works"
 alias ba="/Users/hdoo/works/three_circle/bash/bash"
-alias vim='~/nvim-osx64/bin/nvim'
+alias vim='~/nvim-macos/bin/nvim'
 alias gy="ctags -x % | awk '{ $1=$2=$3=""; print $0 }' | sed 's/^   //' | sed 's/)$/);/' | pbcopy"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
