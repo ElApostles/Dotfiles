@@ -7,8 +7,6 @@ fi
 
 alias libtest="/Users/hdoo/works/libft_and_test/libft-war-machine/grademe.sh"
 
-
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/Library/homebrew/bin:$HOME/bin:/usr/local/bin:$PATH
