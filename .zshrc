@@ -137,11 +137,11 @@ export PATH="$HOME/goinfre/homebrew/bin:$PATH$HOME/.yarn/bin:$HOME/.config/yarn/
 export CPATH="$HOME/goinfre/boost_1_80_0:$CPATH"
 export PATH="/goinfre/hdoo/homebrew/opt/node@16/bin:$PATH"
 export PATH="/goinfre/hdoo/homebrew/opt/openjdk/bin:$PATH"
-USER=hdoo
 export USER
 export ASAN_OPTIONS=detect_leaks=0
 export MANPAGER='~/nvim-osx64/bin/nvim +Man!'
 export MANPATH="/Users/hdoo/.local/man:$MANPATH"
+USER=hdoo
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
