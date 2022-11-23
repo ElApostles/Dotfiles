@@ -9,3 +9,4 @@ brew install node@16
 brew install ripgrep
 brew install fzf
 brew install cmake
+brew install git-flow
