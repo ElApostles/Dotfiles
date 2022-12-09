@@ -49,7 +49,7 @@ if [[ ! -e $HOME/clang-15.0.3 ]]; then
             	mv -v ~/goinfre/clang-15.0.3 ~/
 
 				echo "Add path"
-				echo "export PATH=$HOME/clang-15.0.3/bin/:$PATH" >> ~/.zshrc && source ~/.zshrc
+				echo 'export PATH=$HOME/clang-15.0.3/bin/:$PATH' >> ~/.zshrc && source ~/.zshrc
 				break;;
 
     			No ) exit;;
